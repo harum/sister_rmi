@@ -20,5 +20,5 @@ b.setUrl()
 koko = b.getRss(1)
 
 from rpyc.utils.server import ThreadedServer
-t = ThreadedServer(MyService, port = 1452)
+t = ThreadedServer(MyService, port = 1450)
 t.start()
